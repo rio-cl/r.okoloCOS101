@@ -1,8 +1,8 @@
 use std::io;
 
-fn main() 
-{
-    print!("What Number do you want to multiply ?");
+fn main() {
+    
+    println!("What Number do you want to multiply ?");
     let mut input1 = String::new();
     io::stdin().read_line(&mut input1).expect("Invalid string");
     let _time_table:i32 = input1.trim().parse().expect("Invalid Number");
@@ -21,7 +21,7 @@ fn main()
         let product = x * _time_table;
         println!("{} x {} = {}", x, _time_table, product );
 
-        if x > _stop {
+        if x == _stop {
             break
         }
     }
