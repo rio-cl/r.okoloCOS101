@@ -15,7 +15,7 @@ fn siblings_details()
 
     if _age > 18 
     {
-        println!("is sibling married or working");
+        println!("is sibling married or single");
         let mut input4 = String::new();
         io::stdin().read_line(&mut input4).expect("Invalid input");
         let _marrital_status = input4.trim();
@@ -35,6 +35,12 @@ fn siblings_details()
                 let mut input7 = String::new();
                 io::stdin().read_line(&mut input7).expect("Invalid input");
                 let _course = input7.trim();
+            }else if _working_status == "worker" {
+                println!("what is your income?");
+                let mut input13 = String::new();
+                io::stdin().read_line(&mut input13).expect("Invalid input");
+                let _income:i32 = input13.trim().parse().expect("Invalid input");
+                  
             }
         }else if _marrital_status == "married" {
             println!("Does sibling have any offspring");
@@ -65,38 +71,9 @@ fn siblings_details()
             let _class = input12.trim();
         }
     }
-
-    println!("NAME : {}",_name );
-    println!("AGE : {}",_age );
-
-    if _age > 18 
-    {
-            
-            println!("Marrital status{}", _marrital_status);
-            if _marrital_status == "married" 
-            {
-                println!("Number of offspring: {}",_offspring );
-                println!("City og family residency: {}",_residency);
-            }else if _marrital_status == "single" 
-            {
-                println!("working status: {}",_working_status);
-                if _working_status == student 
-                {
-                    println!("UNIVERSITY : {}",_university );
-                    println!("COURSE OF STUDY: {}",_course );
-                }
-            }      
-
-        }else if _age < 18 {
-            println!("WAEC STATUS: {}",_waec_status );
-            if _waec_status 
-            {
-                println!("SECONDARY SCHOOL ATTENDED: {}",_secondary_school );
-            }else if !_waec_status {
-                println!("CURRENT CLASS LEVEL: {}",_class );
-            }
-    }
 }
+
+
 
 fn main() {
     println!("How many siblings do you have");
