@@ -21,7 +21,7 @@ fn main() {
         convicts.write_all("\t".as_bytes()).expect("Write failed");
         convicts.write_all(ministry[i].as_bytes()).expect("Write failed");
         convicts.write_all("\t|".as_bytes()).expect("Write failed");
-        convicts.write_all("\t\t".as_bytes()).expect("Write failed");
+        convicts.write_all("\t".as_bytes()).expect("Write failed");
         convicts.write_all(zone[i].as_bytes()).expect("Write failed");
     }
 
