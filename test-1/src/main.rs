@@ -45,15 +45,6 @@ fn main()
         io::stdin().read_line(&mut input7).expect("Not a real string");
         let _diagnosis = input7.trim().to_string();
 
-
-        println!("
-        a = Akpabom;
-        b = Ngbauji;
-        c = Atabrikang;
-        d = Okorobilom;
-        e = Emeremen;
-            ", );
-
         println!("What is patient's village of residence?");
         io::stdin().read_line(&mut input8).expect("Not a real string");
         let _place_of_residence = input8.trim().to_string();
