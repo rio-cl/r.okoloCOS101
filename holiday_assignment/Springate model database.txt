@@ -1,0 +1,13 @@
+********** SPRINGATE MODEL DATABASE **********
+
+
+Company                     | Year Founded  |        Shares     |  Liabilities      | Percentage Leverages  | 5 percent of percentage leverages
+----------------------------|---------------|-------------------|-------------------|-----------------------|--------------------------------
+Cadbury Nigeria Plc      	|	   1965 	|	     15000000	|	5500000     	|	63.33333333333333 %     	|	63.33333333333333 %
+Champion Breweries         	|	   1974 	|	     25000000	|	8000000     	|	68 %     	|	68 %
+Dangote Sugar Refinery Plc	|	   1970 	|	     18000000	|	10000000     	|	44.44444444444444 %     	|	0 %
+Flour Mills Nigeria Pic    	|	   1960 	|	     32000000	|	4000000     	|	87.5 %     	|	87.5 %
+Nestle Nigeria panic       	|	   1961 	|	     8000000	|	1500000     	|	81.25 %     	|	81.25 %
+Unilever Nigeria PIc       	|	   1923 	|	     37000000	|	11000000     	|	70.27027027027027 %     	|	0 %
+Honeywell Nigeria PIc      	|	   1906 	|	     34000000	|	9000000     	|	73.52941176470588 %     	|	73.52941176470588 %
+Nigerian Breweries Plc     	|	   1946 	|	     30000000	|	12000000     	|	60 %     	|	0 %
